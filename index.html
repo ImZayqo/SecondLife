@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecondLife</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/uyl5gzc.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">
+                <img src="images/logo.png" alt="">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Accueil</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">À propos</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Commander</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">S'inscrire</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Choose your <span>life</span></h1>
+            <p class="hero__description">On a deux vie, la deuxième commence quand on réalise qu'on en a qu'une</p>
+            <button class="main__btn"><a href="#services">Découvrir</a></button>
+        </div>
+    </div>
+
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><img src="images/sad.png" class="fas fa-layer-group"></div>
+            </div>
+            <div class="main__content">
+                <h1>Qu'est ce qu'on propose?</h1>
+                <h2>Nous vous créons une nouvelle vie</h2>
+                <p>Grâce à nous vous pourrez sortir de votre vie actuelle pour vous consacrez à une nouvelle vie selon vos critères.</p>
+                <button class="main__btn"><a href="àpropos.html">En savoir plus</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <h1 id="commande">Commander</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <h2>Standard</h2>
+                <p>1.000$ à 10.000$</p>
+                <div class="services__btn"><button>Commencez</button></div>
+            </div>
+            <div class="services__card">
+                <a href="premium.html">
+                    <h2>Premium</h2>
+                    <p>10.000$ à 100.000$</p>
+                    <div class="services__btn"><button>Commencez</button></div>
+                </a>
+            </div>
+            <div class="services__card">
+                <h2>Custom</h2>
+                <p>100.000$ à 1.000.000$</p>
+                <div class="services__btn"><button>Commencez</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Rejoignez nous</h1>
+                <h2>Inscrivez vous aujourd'hui</h2>
+                <p>Venez découvrir votre nouvelle vie.</p>
+                <button class="main__btn"><a href="login/login.html">S'inscrire</a></button>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"><img src="images/happy.png" class="fas fa-users"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__links--items">
+                    <h2>A propos</h2>
+                    <a href="/sign-up">Fonctionnement</a>
+                    <a href="/sign-up">Mentions légales</a>
+                    <a href="/sign-up">Politique de confidentialité</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Contactez</h2>
+                    <a href="/sign-up">Contacts</a>
+                    <a href="/sign-up">Siège Social</a>
+                    <a href="/sign-up">Destinations</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__links--items">
+                    <h2>Videos</h2>
+                    <a href="/sign-up">Présentation</a>
+                    <a href="/sign-up">Vlog</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Social media</h2>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://fr-fr.facebook.com/">Facebook</a>
+                    <a href="https://www.youtube.com/">Youtube</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><img src="images/logo.png" alt=""></a>
+                </div>
+                <p class="website__rights">SecondLife 2022. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
